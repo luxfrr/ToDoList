@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    /*background-image: url(images/kissclipart-cool-lion-silhouette-clipart-lion-clip-art-be6a5ff20f3bc4b0.png);
+    */
+}
+h1{
+    color: black;
+    font-size: 3.8rem;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+div{
+    background-color: rgb(10, 127, 148);
+    width: 1024px;
+    min-height: fit-content;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+input[type="checkbox"]:checked + span
+{
+    color: white;
+}
